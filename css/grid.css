@@ -11,7 +11,15 @@
 
 }
 
+.grid3 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100px auto 100px;
+
+}
+
 .grid_footer {
     display: grid;
+    grid-template-rows: 100px;
     grid-template-columns: 300px auto;
 }
